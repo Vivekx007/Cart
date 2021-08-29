@@ -31,6 +31,19 @@ constructor(){
             }
         });
     }
+
+    decreaseQuantity = () =>{
+        if(this.state.qty===0){
+            return;
+        }
+
+        this.setState((prevState) =>{
+            return {
+                qty: prevState.qty - 1,
+            }
+        })
+    }
+
     render() {
         const {price, title, qty} = this.state;
         return (
@@ -53,7 +66,9 @@ constructor(){
 
                         <img alt="decrease" 
                         className="action-icons" 
-                        src="https://image.flaticon.com/icons/png/512/1828/1828906.png" />
+                        src="https://image.flaticon.com/icons/png/512/1828/1828906.png" 
+                        onClick={this.decreaseQuantity}
+                        />
 
                         <img alt="delete" 
                         className="action-icons" 
