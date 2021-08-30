@@ -85,7 +85,8 @@ const styles = {
         height:115,
         width:115,
         borderRadius:4,
-        background:'#ccc'
+        background:'#ccc',
+        margin: 10 ,
     }
 }
 

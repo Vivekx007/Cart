@@ -14,6 +14,7 @@ body {
   position: relative;
   top:20px;
   left:20px;
+  bottom:20px;
 }
 
 .cart-item .right-block{
