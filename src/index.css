@@ -10,11 +10,11 @@ body {
 
 .cart-item{
   display: inline-flex;
-  margin:20px, 10px;
+  margin:20px, 15px;
   position: relative;
   top:20px;
   left:20px;
-  bottom:20px;
+  
 }
 
 .cart-item .right-block{
